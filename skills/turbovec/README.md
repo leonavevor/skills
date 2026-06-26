@@ -8,6 +8,13 @@ TurboVec skill package focused on index and query workflows.
 - Query indexes with stable IDs and optional filtering patterns
 - Support RAG integration with practical code-first outputs
 
+### Install skill directly (e.g: turbovec)
+```
+npx skill add leonavevor/skill
+# or
+npx skills add https://github.com/leonavevor/skills --skill turbovec
+```
+
 ## Main Files
 
 - `SKILL.md` - trigger rules and operating guide

@@ -4,4 +4,4 @@ __pycache__/
 .vscode/
 
 .agents/
-.skills.*json
+skills-lock.json
