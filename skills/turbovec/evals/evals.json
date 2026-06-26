@@ -1,0 +1,44 @@
+{
+  "skill_name": "turbovec",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use TurboVec to analyze our vector retrieval latency and propose the top 3 fixes with impact and risk.",
+      "expected_output": "Ranked bottlenecks with evidence and a concrete optimization plan.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Apply TurboVec optimizations to our similarity scoring hot path and add tests or benchmarks to verify no regression."
+      ,
+      "expected_output": "Code changes plus validation results and before/after measurements when available.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We have ANN search regressions after increasing embedding dimensions. Use TurboVec to diagnose root cause and implement a safe fix.",
+      "expected_output": "Root-cause analysis, patch, and clear explanation of tradeoffs.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Given benchmark JSON for FAISS and TurboVec runs, generate a markdown comparison report and a concise JSON summary using the skill helper scripts.",
+      "expected_output": "Script commands, generated file paths, and correct benchmark deltas.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Create a LangChain integration scaffold for TurboVec and explain where to plug in project-specific embeddings and retrieval logic.",
+      "expected_output": "Generated scaffold file with minimal explanation of customization points.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Explain embeddings for beginners and recommend any popular vector DB for a generic project.",
+      "expected_output": "Should not trigger TurboVec-specific implementation workflow; this is a conservative near-miss case.",
+      "files": []
+    }
+  ]
+}
+
+
