@@ -1,4 +1,5 @@
 ### Add this repo to your skills repo:
+ref: https://vercel.com/kb/guide/agent-skills-creating-installing-and-sharing-reusable-agent-context
 ```
 npx skills add leonavevor/skills
 # or
@@ -101,3 +102,5 @@ The frontmatter requires only two fields:
 
 The markdown content below contains the instructions, examples, and guidelines that the agent will follow. For more details, see [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills).
 
+# How to publish a custom still to vercel (skills.sh)
+ref: https://vercel.com/kb/guide/agent-skills-creating-installing-and-sharing-reusable-agent-context
